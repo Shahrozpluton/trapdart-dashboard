@@ -1,0 +1,414 @@
+@media (max-width: 480px) {
+    
+
+ 
+}
+@media (max-width: 400px) {
+    .payment-flex {
+        flex-direction: column;
+    }
+    .token-section .inner {
+        flex-direction:row;
+    }
+    .payment-first-flex{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .historic-flex .filter {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .historic-flex{
+        flex-direction: column;
+    }
+    .historic-flex .filter .flex {
+        width: 50%;
+    }
+    .minipool-check {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .stake-meta .stake-meta-div p {
+        height: 45px;
+    }
+    .stake-meta-div span {
+        top: 57px;
+        font-size: 10px;
+        left: 9px;
+    }
+    .select-minipool .d-flex {
+        flex-direction: column;
+    }
+    .select-minipool .d-flex .border-bg{
+        margin-bottom: 1rem;
+        padding: 5px 2rem;
+        width: 100%;
+    }
+    .absolute-p {
+        top: -149px;
+        left: 175px;
+    }
+    .trade-section .head {
+        font-size: 15px;
+    }
+    .admin-ul li {
+        width: 100%;
+    }
+
+  
+
+    
+}
+@media (max-width: 360px) {
+   
+    .light-small-p{
+
+        position: static;
+    
+    }
+
+    .calculator-group label {
+        font-size: 10px;
+    }
+    .calculator-ammount p {
+        font-size: 10px;
+    }
+    .section-title, .title-section {
+        font-size: 16px;
+    }
+    .footer-p{
+        font-size: 11px;
+    }
+
+}
+@media (max-width: 767px) {
+
+    
+.border-bg {
+    padding: 2px 13px;
+    font-size: 12px;
+}
+   
+
+   .mint-section{
+
+    margin-top: 20px;
+
+   }
+
+
+   .mobile-bsc{
+    width: 150px !important;
+    display: block;
+}
+.head-logo-text{
+}
+.header .inner{
+    display: none;
+
+}
+.mint-section{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.header .address-section {
+    display: flex;
+    align-items: center;
+}
+.header img {
+    width: 20px;
+}
+.header .address-section {
+    margin-right: 1rem;
+}
+.balance-flex {
+    flex-direction: column;
+}
+.balance-flex .inner {
+    width: 100% !important;
+}
+.token-section .flex {
+    align-items: flex-start;
+    flex-direction: column;
+}
+.stake-top {
+    align-items: flex-start;
+    flex-direction: column;
+}
+.select-minipool {
+    align-items: flex-start;
+    flex-direction: column;
+}
+.form-check-label span {
+    font-size: 10px;
+}
+ 
+.select-minipool .d-flex{
+    margin-top: 1rem;
+}
+.absolute-p {
+    top: -54px;
+}
+.calculator {
+    flex-direction: column;
+}
+.admin-ul li {
+    width: 45%;
+    margin: 15px auto 0px auto;
+}
+
+.buy-hest{
+
+    flex-direction: column;
+
+}
+
+}
+
+
+@media (max-width: 768px) {
+
+   
+ 
+    .mint-section .custom-btn {
+        width: 160px;
+    }
+  
+    
+   
+    .payment-top-margin{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+   
+    
+}
+
+@media (max-width:991px){
+
+    .header {
+        padding-left: 1rem;
+    }
+    .sidebar .logo{
+        justify-content: space-between;
+        padding: 1rem;
+    }
+    .main-body .sidebar{
+        width: 0;
+        overflow: hidden;
+    }
+
+    .main-section{
+        width: 100%;
+    }
+
+    .open-sidebar-icon{
+        display: block;
+        color: var(--white);
+    }
+
+    .close-sidebar-icon{
+        display: block;
+    }
+    .head-logo-text h5{
+        display: none;
+    }
+
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+
+
+    .section-title, .title-section {
+        font-weight: 400;
+        font-size: 20px;
+    }
+
+
+
+}
+
+@media (max-width: 1023px) and (min-width: 992px) {
+
+    .buy-hest{
+
+        flex-direction: column;
+
+    }
+
+    .buy-hest li a span {
+        font-size: 14px;
+     
+    }
+    
+    .buy-hest img {
+        width: 60px;
+    }
+
+    .buy-hest li {
+
+        width: 100%;
+    }
+    
+    
+    .border-bg {
+        padding: 2px 13px;
+        font-size: 12px;
+    }
+
+    .absolute-p{
+        white-space: pre;
+        font-size: 9px;
+    }
+
+
+  
+	
+}
+
+@media (max-width: 1366px) and (min-width: 1024px) {
+    .payment-top-margin{
+        margin-top: 1rem;
+    }
+    .payment-flex {
+        flex-direction: column;
+    }
+    .payment-first-flex{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .stake-meta-div .head {
+        padding: 12px;
+    }
+    .trade-section .head {
+        font-size: 11px;
+    }
+    .stake-time span {
+        padding: 5px 12px;
+    }
+    .stake-meta-div span {
+        font-size: 9px;
+        top: 56px;
+        left: 8px;
+    }
+    .custom-btn {
+        padding: 0.5rem 1rem;
+    }
+    .stake-meta .stake-meta-div p {
+        height: 45px;
+    }
+    .form-check-label span {
+        font-size: 9px;
+    }
+    .border-bg {
+        padding: 5px 15px;
+        margin-right: 7px;
+    }
+    .select-minipool {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .select-minipool .d-flex{
+        margin-top: 1rem;
+    }
+    .absolute-p {
+        top: -54px;
+    }
+    .admin-ul li {
+        width: 31%;
+    }
+
+    .stake-top {
+        align-items: normal;
+        flex-direction: column;
+       
+    }
+
+    
+    .buy-hest li {
+
+        width: 100%;
+    }
+
+    
+    .buy-hest li a span {
+        font-size: 16px;
+     
+    }
+
+    
+}
+
+@media (max-width: 1440px) and (min-width: 1366px) {
+
+    .payment-top-margin{
+        margin-top: 1rem;
+    }
+    .payment-flex {
+        flex-direction: column;
+    }
+    .payment-first-flex{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .stake-top {
+        align-items: normal;
+        flex-direction: column;
+       
+    }
+    .stake-meta-div .head {
+        padding: 12px;
+    }
+    .trade-section .head {
+        font-size: 11px;
+    }
+    .stake-time span {
+        padding: 5px 12px;
+    }
+    .stake-meta-div span {
+        font-size: 9px;
+        top: 56px;
+        left: 8px;
+    }
+    .custom-btn {
+        padding: 0.5rem 1rem;
+    }
+    .stake-meta .stake-meta-div p {
+        height: 45px;
+    }
+    .form-check-label span {
+        font-size: 9px;
+    }
+    .border-bg {
+        padding: 5px 15px;
+        margin-right: 7px;
+    }
+    .select-minipool {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .select-minipool .d-flex{
+        margin-top: 1rem;
+    }
+    .absolute-p {
+        top: -54px;
+    }
+    .admin-ul li {
+        width: 31%;
+    }
+    
+    .buy-hest li {
+
+        width: 100%;
+    }
+
+    
+    .buy-hest li a span {
+        font-size: 16px;
+     
+    }
+
+}
